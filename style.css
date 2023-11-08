@@ -1,0 +1,146 @@
+
+
+/* <!-- ***********************************Main-Body**************************************** --> */
+body{
+    margin:0;
+}
+
+/* <!-- ***********************************Header-Start**************************************** --> */
+
+.nav-background{
+    width:100%;
+    background-color:#0a0b27;
+    position: fixed;
+    z-index: 2;
+}
+.options-list{
+    margin: 0px;
+    padding: 6px 30px;
+    font-size: 18px;
+    font-family: calibri;
+    list-style: none;
+    display: flex;
+    gap: 58px;
+    color: white;
+}
+.navoption:hover{
+    color: red;
+    cursor:pointer;
+}
+.nav-background{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 23px;
+    margin: 22px 23px;
+    padding:2px;
+}
+
+
+/* <!-- ***********************************Section-Start**************************************** --> */
+
+
+.waterdrop1{
+    width: 100%;
+}
+.leftbackground{
+    width: 50%;
+    margin-top:-4px;
+    padding-top: 200px;
+    background-color: rgb(82, 10, 118);
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+}
+.leaf{
+    rotate:45deg;
+    width:160px;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    margin-top: 60px;
+}
+.maintext{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    z-index: 1;
+    margin-top: 224px;
+    margin-left:16px;
+}
+.leafandtext{
+    padding-left: 35%;
+    padding-top:25%;
+    padding-bottom:25%;
+    z-index: 0;
+    position: relative;
+}
+
+
+.heading{
+    font-family:Calibri light;
+    font-size: 40px;
+    color:#520a76;
+}
+
+/* <!-- ***********************************Section-2*************************************** --> */
+
+
+.para{
+    font-family: calibri;
+    font-size: 24px;
+    color:#520a76 ;
+}
+.row{
+    display: flex;
+}
+.content{
+    letter-spacing:1px;
+    padding-left:119px;  
+    padding-top: 144px;  
+}
+
+.bottle{
+    width: 100%;
+}
+.bottlebanner{
+    padding-top: 1%;
+}
+
+/* <!-- ***********************************Footer-Start**************************************** --> */
+
+.firstcolumn{
+    float: left;
+    margin-left: 80px;
+}
+.secondcolumn{
+    float: left;
+    margin-left:200px;
+}
+.thirdcolumn{
+    margin-top: 1px;
+    margin-left: 1050px;
+}
+.rowcontainer{
+    font-family: calibri;
+}
+.secondmails:hover{
+color:red;
+cursor:pointer;
+}
+.secondmails{
+    font-weight: bold;
+}
+.tclink:hover{
+    color: red;
+    cursor:pointer;
+}
+.social{
+    letter-spacing: 5px;
+}
+.social:hover{
+    cursor: pointer;
+}
+
+/* <!-- ***********************************Footer-End**************************************** --> */
